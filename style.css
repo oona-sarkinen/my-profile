@@ -1,0 +1,114 @@
+/* Colors and fonts*/
+
+body {
+	background-color: ghostwhite;
+	color: #5B5B5B;
+	font-family: Open sans, sans-serif;
+}
+
+div {
+    width: 700px;
+    margin: 40px auto;
+}
+
+h1, h2, h3 {
+
+	font-family: Raleway, sans-serif;
+} 
+
+h1 {
+	color: #00468A;
+	font-weight: 600;
+	letter-spacing: 3px;
+	font-size: 30px;
+}
+
+h2 {
+	color: #00468A;
+	font-weight:400;
+	letter-spacing: 1px;
+	font-size: 22px;
+}
+a {
+	text-decoration: none;
+	color: #BAE7FF;
+}
+a:hover {
+	color: #BEF9F2;
+	font-family: Raleway, sans-serif;
+	font-weight:400;
+	font-size: 16px;
+
+}
+
+/* Custom design with class */
+
+.container {
+	width:  700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background: #FFFF;
+    padding: 40px;
+    margin: 20px 0px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 240px;
+}
+.btn-lightblue {
+	background-color: #BAE7FF;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-lightblue:hover {
+	background-color: #BEF9F2;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display:  inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 30px;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 600px;
+	}
+	.card-white {
+		width: 600px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+	.card-white {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+	.card-white {
+		width: 300px;
+	}
+}
